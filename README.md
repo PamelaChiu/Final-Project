@@ -32,5 +32,5 @@ The preferred method is based on my test data and RMSE.
 Below is the result of the forecast for Montreal using Holt-Winters Model.
 ![Graph of Housing Price](./Montreal.GIF)
 
-For the rest of the forecast on Quebec City, Toronto, & Vancouver.
+For the forecasts on Quebec City, Toronto, & Vancouver.
 [Click Here](./assets)
