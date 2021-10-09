@@ -19,8 +19,6 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
-# assume you have a "long-form" data frame
-# see https://plotly.com/python/px-arguments/ for more options
 montreal = pd.read_excel('data/Seasonally Adjusted.xlsx',sheet_name='MONTREAL_CMA', index_col= 'Date')
 montreal.index.freq = 'MS'
 montreal = montreal[['Single_Family_Benchmark_SA','One_Storey_Benchmark_SA', 'Two_Storey_Benchmark_SA',
