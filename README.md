@@ -20,14 +20,16 @@ The final project is to predict the future prices of homes in Montreal, Toronto,
 
 During the search for a home in 2020 (like everyone else), I began to notice prices were growing at an unsustainable pace and were becoming unaffordable for the average Canadian, whose wages did not see the same increase. I wanted to get an overall view of the real estate market in large Canadian cities, and get an idea of the trajectory for the next 12 months.  
 
-In this project, I will be using 2 different time-series models: the ARIMA Method and the Holt-Winters Method.
+In this project, I will be using 2 different time-series models: the AutoRegresssive Integrated Moving Average(ARIMA) Method and the Holt-Winters Method.
 
 # Conclusion
 
-Which method is better, ARIMA or Holt-Winters?
-Truthfully, one model will work better on one dataset versus another.
-For Montreal, Holt-Winters is the preferred method, while Quebec City, Toronto and Vancouver, ARIMA is the preferred method. 
-The preferred method is based on my test data and RMSE.
+Which method is better, ARIMA Method or Holt-Winters Method?
+ARIMA is a time series model that uses past values to predict future trends.
+Holt-Winters (another time series model) predicts trends based on putting more weight in recent data and less weight on the early data. It also looks at 3 different aspects: trends, value and seasonality. This is best known as triple exponential smoothing.
+
+Based on my testing data of 12 months, the dataset for Montreal worked better on Holt-Winters Method because the root mean square error (RMSE) was lower compared to ARIMA.
+While the datasets for Toronto, Quebec City and Vancouver had a lower RMSE for ARIMA than Holt Winters.
 
 Below is the result of the forecast for Montreal using Holt-Winters Model.
 ![Graph of Housing Price](./Montreal.GIF)
