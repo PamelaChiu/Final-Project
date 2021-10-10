@@ -18,7 +18,7 @@ This is the capstone project! Time to make all the skills you worked so hard for
 
 The final project is to predict the future prices of homes in Montreal, Toronto, Vancouver and Quebec City.
 
-During the search for a home in 2020 (like everyone else), I began to notice prices were growing at an unsustainable pace and were becoming unaffordable for the average Canadian, whose wages did not see the same increase. I wanted to get an overall view of the real estate market in large Canadian cities, and get an idea of the trajectory for the next 12 months.  
+During the search for a home in 2020 (like everyone else), I noticed that prices were growing at an unsustainable pace and were becoming unaffordable for the average Canadian, whose wages did not see the same increase. I wanted to get an overall view of the real estate market in large Canadian cities, and get an idea of the trajectory for the next 12 months.  
 
 In this project, I will be using 2 different time-series models: the AutoRegresssive Integrated Moving Average(ARIMA) Method and the Holt-Winters Method.
 
