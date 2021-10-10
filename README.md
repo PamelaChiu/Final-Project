@@ -24,7 +24,6 @@ In this project, I will be using 2 different time-series models: the AutoRegress
 
 # Conclusion
 
-Which method is better, ARIMA Method or Holt-Winters Method?
 ARIMA is a time series model that uses past values to predict future trends.
 Holt-Winters (another time series model) predicts trends based on putting more weight in recent data and less weight on the early data. It also looks at 3 different aspects: trends, value and seasonality. This is best known as triple exponential smoothing.
 
